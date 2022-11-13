@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+
+    &-ads {
+        background-color: $color_red;
+
+        .ads-date {
+            padding: 4px;
+            width: 120px;
+            text-align: center;
+            background-color: $color_yellow;
+            border-radius: 50px;
+        }
+
+        i {
+            color: $color_yellow;
+        }
+
+        .fa-chevron-left {
+            background-color: $color_yellow;
+            font-size: 12px;
+            font-weight: bold;
+            width: 16px;
+            height: 16px;
+            text-align: center;
+            padding: 3px;
+            border-radius: 50%;
+        }
+
+    }
+
+    &-tab {
+
+        overflow: hidden;
+
+        img {
+            // width: 150px;
+        }
+
+        &-search {
+            input {
+                border: none;
+                padding-right: 5px;
+
+            }
+
+            input:focus {
+                outline: none;
+            }
+
+            border: 2px solid;
+        }
+
+        &-account {
+            border: 2px solid;
+            // width: 10px !important;
+        }
+    }
+}

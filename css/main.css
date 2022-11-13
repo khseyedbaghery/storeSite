@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-ads {
+  background-color: rgba(248, 73, 73, 0.808);
+}
+
+.header-ads .ads-date {
+  padding: 4px;
+  width: 120px;
+  text-align: center;
+  background-color: yellow;
+  border-radius: 50px;
+}
+
+.header-ads i {
+  color: yellow;
+}
+
+.header-ads .fa-chevron-left {
+  background-color: yellow;
+  font-size: 12px;
+  font-weight: bold;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.header-tab {
+  overflow: hidden;
+}
+
+.header-tab-search {
+  border: 2px solid;
+}
+
+.header-tab-search input {
+  border: none;
+  padding-right: 5px;
+}
+
+.header-tab-search input:focus {
+  outline: none;
+}
+
+.header-tab-account {
+  border: 2px solid;
+}
+/*# sourceMappingURL=main.css.map */
