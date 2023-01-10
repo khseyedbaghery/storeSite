@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Nazanin';
+  src: url(./Nazanin.eot);
+  src: url(./Nazanin.eot?#iefix) format('embedded-opentype'),
+       url(./Nazanin.woff) format('woff');
+}

@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'danstevis';
+  src: url(./danstevis.eot);
+  src: url(./danstevis.eot?#iefix) format('embedded-opentype'),
+       url(./danstevis.woff) format('woff');
+}

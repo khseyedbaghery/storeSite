@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'khat-khati-02';
+  src: url(./khat-khati-02.eot);
+  src: url(./khat-khati-02.eot?#iefix) format('embedded-opentype'),
+       url(./khat-khati-02.woff) format('woff');
+}

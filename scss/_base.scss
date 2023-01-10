@@ -1,2 +1,88 @@
 $color_red : rgba(248, 73, 73, 0.808);
 $color_yellow : yellow;
+$color_orange : rgb(247, 184, 102);
+$color_border : rgba(0, 0, 0, 0.1);
+$color_secondary : #6c757d;
+$color_lightGray: #f1f1f1;
+$color_lightGray2: #c9c6c6;
+$color-blue : rgb(39, 194, 221);
+
+$font_koodak : 'Bkoodak';
+$font_shabnam : 'Shabnam';
+$font_danstevis : 'Danstevis';
+$font_nazanin : 'Nazanin';
+$font_khatkhati : 'Khatkhati';
+
+:root {
+    --color-red: rgba(248, 73, 73, 0.808);
+
+    // --color-palllet1: rgb(247, 121, 142);
+    // --color-palllet2: #f7b53b;
+    // --color-palllet3: #3bf7d8;
+    // --color-palllet4: #3bf754;
+    // --color-palllet5: #d5f73b;
+    // --color-palllet6: #f7e43b;
+    // --color-palllet7: #3bb2f7;
+    // --color-palllet8: #d082e7;
+    // --color-palllet9: #ee1d9e;
+    // --color-pallle10: #ee1d1df6;
+    // --color-palllet11: #924905ce;
+    // --color-palllet12: #927805ce;
+    // --color-palllet13: #16aa47ce;
+    // --color-palllet14: rgba(248, 73, 73, 0.808);
+}
+
+@keyframes animationForHeight {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 100%;
+    }
+}
+
+@keyframes animationForWidth {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: 'Bkoodak';
+    src: url("../font/B-Koodak/B\ Koodak\ Bold_0.eot") format("eot");
+    src: url("../font/B-Koodak/B\ Koodak\ Bold_0.ttf") format('ttf');
+    src: url("../font/B-Koodak/B\ Koodak\ Bold_0.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Danstevis';
+    src: url("../font/danstevis/danstevis.eot") format('eot');
+    src: url("../font/danstevis/danstevis.ttf") format('ttf');
+    src: url("../font/danstevis/danstevis.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Nazanin';
+    src: url("../font/Far_Nazanin/Nazanin.eot") format('eot');
+    src: url("../font/Far_Nazanin/Nazanin.ttf") format('ttf');
+    src: url("../font/Far_Nazanin/Nazanin.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Khatkhati';
+    src: url("../font/persian-khat-khati-02/khat-khati-02.eot") format('eot');
+    src: url("../font/persian-khat-khati-02/khat-khati-02.ttf") format('ttf');
+    src: url("../font/persian-khat-khati-02/khat-khati-02.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url("../font/Shabnam/Shabnam.eot") format('eot');
+    src: url("../font/Shabnam/Shabnam.ttf") format('ttf');
+    src: url("../font/Shabnam/Shabnam.woff") format('woff');
+}
